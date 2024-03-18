@@ -1,0 +1,353 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+  }
+  .firstsec {
+    height: 800px;
+    width: 100%;
+    background-color: black;
+  }
+  .navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(148, 144, 144);
+  }
+  .navlist {
+    display: flex;
+    list-style: none;
+  }
+  ul > li {
+    margin-left: 80px;
+  }
+  .fa-bars {
+    font-size: 30px;
+  }
+  .transform {
+    font-size: 180px;
+    color: white;
+    padding-left: 5%;
+    background: linear-gradient(to right, white 10%, gray 90%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Montserrat", sans-serif;
+  }
+  .img1 {
+    filter: grayscale(100%);
+    position: absolute;
+    top: 35%;
+    left: 47%;
+  }
+  .your {
+    font-size: 180px;
+    color: white;
+    position: relative;
+    bottom: 8%;
+    padding-left: 5%;
+    background: linear-gradient(to right, white 10%, gray 90%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Montserrat", sans-serif;
+  }
+  .moon {
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 16%;
+    top: 25%;
+    background: radial-gradient(circle, #ffcc00, #e69500);
+    box-shadow: 1px 1px 40px white;
+  }
+  .the {
+    color: transparent;
+    background: linear-gradient(to top, gray, white);
+    -webkit-background-clip: text;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+  }
+  .display1 {
+    margin-left: 5%;
+    height: 100px;
+    width: 50%;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .interior {
+    color: transparent;
+    background: linear-gradient(to bottom, gray, white);
+    -webkit-background-clip: text;
+  }
+  .btn1 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background: linear-gradient(to left, rgb(179, 177, 177), white);
+    color: rgb(63, 61, 61);
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px white;
+    font-weight: bold;
+    z-index: 1;
+  }
+  .btn1:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, rgb(129, 128, 128), rgb(235, 230, 230));
+  }
+  .fa-right-long {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 4px;
+    top: 4px;
+  }
+  .btn2 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background: linear-gradient(to right, rgb(14, 13, 13) 70%, white);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px rgb(30, 29, 29);
+    font-weight: bold;
+    z-index: 1;
+  }
+  .btn2:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      to right,
+      rgb(14, 14, 14) 70%,
+      rgb(209, 203, 203)
+    );
+  }
+  .fa-arrow-right {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 4px;
+    top: 4px;
+  }
+  .display2 {
+    margin-left: 17%;
+    height: 125px;
+    width: 33%;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    z-index: 1;
+  }
+  .img2 {
+    height: 120px;
+    width: 18%;
+    background-color: #e69500;
+    z-index: 1;
+    filter: grayscale(100%);
+  }
+  .box1 {
+    height: 2px;
+    width: 100%;
+    background-color: gray;
+  }
+  .secondsec {
+    height: 750px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .leftside {
+    height: 500px;
+    width: 30%;
+    /* background-color: white; */
+    margin-top: 10%;
+    filter: grayscale(100%);
+  }
+  .rightside {
+    height: 500px;
+    width: 45%;
+    /* background-color: red; */
+    margin-top: 10%;
+  }
+  .text {
+    color: gray;
+    text-align: end;
+    font-size: 38px;
+  }
+  .text2 {
+    color: white;
+    text-align: end;
+    font-size: 36px;
+  }
+  span {
+    color: gray;
+  }
+  .heading1 {
+    color: white;
+    font-size: 60px;
+    margin-left: 13%;
+  }
+  .heading2 {
+    color: gray;
+    margin-left: 13%;
+  }
+  .heading3 {
+    color: gray;
+    margin-left: 18%;
+  }
+  .heading4 {
+    color: gray;
+    margin-left: 16%;
+  }
+  .btn3 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background: linear-gradient(to left, rgb(179, 177, 177), white);
+    color: rgb(63, 61, 61);
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px white;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-left: 80%;
+  }
+  .thirdsec {
+    height: 750px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .leftside2 {
+    height: 500px;
+    width: 25%;
+    /* background-color: white; */
+    margin-top: 10%;
+  }
+  .rightside2 {
+    height: 500px;
+    width: 55%;
+    background-color: red;
+    margin-top: 10%;
+    filter: grayscale(100%);
+    background-image: url(https://img.freepik.com/free-photo/3d-rendering-modern-dining-room-living-room-with-luxury-decor_105762-2000.jpg?w=1380&t=st=1706817532~exp=1706818132~hmac=5c049cb4b42ef960b819673e442007a8c67e59dd6eaca2d95514121d881bff47);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fa-circle-play {
+    font-size: 100px;
+    padding-left: 43%;
+    padding-top: 23%;
+  }
+  .text3 {
+    color: gray;
+    font-size: 40px;
+  }
+  .sprite {
+    font-size: 40px;
+    color: white;
+  }
+  .provide {
+    color: gray;
+    padding-top: 20%;
+  }
+  .btn4 {
+    height: 50px;
+    width: 150px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 40%;
+  }
+  .fourthsec {
+    height: 1600px;
+    width: 100%;
+    background-color: black;
+  }
+  .home {
+    color: gray;
+    font-size: 60px;
+    padding-left: 7%;
+    padding-top: 7%;
+  }
+  .box2 {
+    height: 2px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 3%;
+  }
+  .box3 {
+    height: 2px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 8%;
+  }
+  .home3 {
+    color: white;
+    font-size: 60px;
+    padding-left: 7%;
+    padding-top: 7%;
+  }
+  .display3 {
+    height: 300px;
+    width: 100%;
+    /* background-color: rgb(249, 7, 7); */
+    display: flex;
+    justify-content: space-between;
+  }
+  .img4{
+  filter: grayscale(100%);
+  padding-top: 50px;
+  }
+  .fifthsec {
+    height: 850px;
+    width: 100%;
+    background-color: black;
+  }
+  .leftside3{
+    height: 120px;
+    width: 40%;
+    /* background-color: white; */
+    margin-top: 5%;
+  }
+  .rightside3{
+    height: 120px;
+    width: 40%;
+    /* background-color: white; */
+    margin-top: 5%;
+  
+  }
+  .display4{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .every{
+  font-size: 45px;
+  color: white;
+  }
+  .Carve{
+    color: gray;
+    text-align: end;
+    font-size: 20px;
+  }
+  .box5{
+  margin-top: 5%;
+  height: 500px;
+  width: 20%;
+  background-color: white;
+  }
+  .img5{
+    filter: grayscale(100%);
+  }
